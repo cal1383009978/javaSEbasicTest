@@ -1,15 +1,15 @@
 public class HolidayHomework {
     public static void main(String[] args) {
-   //打印实心正方形
+        //case2 打印实心正方形
         for(int i=1;i<=9;i++) {
-  //控制实心正方形的行
+        //控制实心正方形的行
             for(int j=1;j<=9;j++) {
-  //控制实心正方形的列
+        //控制实心正方形的列
                 System.out.print("@"+" ");
             }
             System.out.println();
         }
-        //打印空心正方形
+        // case4 打印空心正方形
         for(int k=1;k<=11;k++) {
             if(k>1&&k<11) {
                 System.out.println("*                   *");
@@ -32,6 +32,7 @@ public class HolidayHomework {
  import java.util.*;
 public class HolidayHomework {
 	public static void main(String []args){
+		//case9 小球的弹力
 		//小球高度
 		double h = 100;
 		//l经过多少米
@@ -42,6 +43,7 @@ public class HolidayHomework {
 		}System.out.print(l);
 	}
 } 	
+  //case6 合并数组
   int []A={1,7,9,11,13,15,17,19}; 
 		 int []B={2,4,6,8,10}; 
 		 int []C=new int[13]; 
